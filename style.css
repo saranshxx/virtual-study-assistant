@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: rgba(0,0,0,0.2);
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.1);
+}
+
+input, select, button, textarea {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #ffcc00;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#timetable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#timetable th, #timetable td {
+  border: 1px solid white;
+  text-align: center;
+  padding: 8px;
+}
+
+.theme-aurora {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.theme-sunset {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.theme-ocean {
+  background: linear-gradient(to right, #2b5876, #4e4376);
+}
+
+.theme-midnight {
+  background: linear-gradient(to right, #232526, #414345);
+}
